@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dilex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        <h1 class="header__title">Dilex</h1>
+        <div class="header__nav">
+            <a href="#car" class="header__link">Autos</a>
+            <a href="#" class="header__link">Über uns</a>
+            <a href="#contacts" class="header__link">Kontakte</a>
+            <a href="tel:+4917672239291" class="header__link">+49 176 72239291</a>
+            <button data-modal="consultation" class="header__btn">Anruf bestellen</button>
+        </div>
+        <button data-modal="consultation" class="button">Anruf bestellen</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <section id="up" class="consultation">
+        <div class="consultation__title">
+            <div class="consultation__question">
+                <span>Suchen Sie ein <a href="#car" class="consultation__link">Auto</a>?</span><br>
+                <span class="consultation__descr">Wir können Sie helfen!</span><br>
+            </div>
+            <div class="consultation__mail">
+                <div class="consultation__text">
+                    Sie können Ihre Daten hinterlassen<br>
+                    und wir werden Sie kontaktieren
+                </div>
+                <form id="consultation-form" class="form" action="#">
+                    <input name="name" required placeholder="Name" type="text">
+                    <input name="phone" required placeholder="Telefonnummer" type="number">
+                    <input name="email" required placeholder="E-mail" type="email">
+                    <button class="button form__btn">Anruf bestellen</button>
+                </form>
+            </div>
+        </div>    
+    </section>
+
+   
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/carousel/golf.jpg" alt="golf" class="carousel__car">
+                </div>
+                <div>
+                    <img src="img/carousel/drift.jpg" alt="drift" class="carousel__car">
+                </div>
+                <div>
+                    <img src="img/carousel/nissan.jpg" alt="nissan" class="carousel__car">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="car" class="cars">
+        <div class="container">
+            <h2 class="cars__h2">Autos</h2>
+                <div class="cars__product">
+                    <div class="cars__title">auto</div>
+                    <div class="cars__wrapper">
+                        <div class="cars__img">
+                            <div class="carousel__inner cars__inner">
+                                <div>
+                                    <a href="img/carousel/drift.jpg" data-lightbox="cars_1"><img src="img/carousel/drift.jpg" alt="drift" class="carousel__car cars__carousel"></a>
+                                </div>
+                                <div>
+                                    <a href="img/carousel/nissan.jpg" data-lightbox="cars_1"><img src="img/carousel/nissan.jpg" alt="nissan" class="carousel__car cars__carousel"></a>
+                                </div>
+                                <div>
+                                    <a href="img/carousel/golf.jpg" data-lightbox="cars_1"><img src="img/carousel/golf.jpg" alt="golf" class="carousel__car cars__carousel"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cars__descr">
+                            <div class="cars__info">
+                                <div class="cars__div">Preis: </div>
+                                <div class="cars__data">49.999 €</div>
+                            </div>
+                            <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                            <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                            <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+                            <button class="cars__btn button">mehr</button>
+                        </div>
+                    </div>
+                    <div class="cars__list">
+                        <div class="cars__info"><div class="cars__div">Preis: </div><div class="cars__data">49.999 €</div></div>
+                        <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                        <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                        <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+
+                        <div class="cars__info"><div class="cars__div">Preis: </div><div class="cars__data">49.999 €</div></div>
+                        <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                        <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                        <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+                    </div>
+                </div>
+
+                <div class="cars__product">
+                    <div class="cars__title">auto</div>
+                    <div class="cars__wrapper">
+                        <div class="cars__img">
+                            <div class="carousel__inner cars__inner">
+                                <div>
+                                    <a href="img/carousel/drift.jpg" data-lightbox="cars_1"><img src="img/carousel/drift.jpg" alt="drift" class="carousel__car cars__carousel"></a>
+                                </div>
+                                <div>
+                                    <a href="img/carousel/nissan.jpg" data-lightbox="cars_1"><img src="img/carousel/nissan.jpg" alt="nissan" class="carousel__car cars__carousel"></a>
+                                </div>
+                                <div>
+                                    <a href="img/carousel/golf.jpg" data-lightbox="cars_1"><img src="img/carousel/golf.jpg" alt="golf" class="carousel__car cars__carousel"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cars__descr">
+                            <div class="cars__info"><div class="cars__div">Preis: </div><div class="cars__data">49.999 €</div></div>
+                            <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                            <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                            <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+                            <button class="cars__btn button">mehr</button>
+                        </div>
+                    </div>
+                    <div class="cars__list">
+                        <div class="cars__info"><div class="cars__div">Preis: </div><div class="cars__data">49.999 €</div></div>
+                        <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                        <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                        <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+
+                        <div class="cars__info"><div class="cars__div">Preis: </div><div class="cars__data">49.999 €</div></div>
+                        <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                        <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                        <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+                    </div>
+                </div>
+                <div class="cars__product">
+                    <div class="cars__title">auto</div>
+                    <div class="cars__wrapper">
+                        <div class="cars__img">
+                            <div class="carousel__inner cars__inner">
+                                <div>
+                                    <a href="img/carousel/drift.jpg" data-lightbox="cars_1"><img src="img/carousel/drift.jpg" alt="drift" class="carousel__car cars__carousel"></a>
+                                </div>
+                                <div>
+                                    <a href="img/carousel/nissan.jpg" data-lightbox="cars_1"><img src="img/carousel/nissan.jpg" alt="nissan" class="carousel__car cars__carousel"></a>
+                                </div>
+                                <div>
+                                    <a href="img/carousel/golf.jpg" data-lightbox="cars_1"><img src="img/carousel/golf.jpg" alt="golf" class="carousel__car cars__carousel"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cars__descr">
+                            <div class="cars__info"><div class="cars__div">Preis: </div><div class="cars__data">49.999 €</div></div>
+                            <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                            <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                            <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+                            <button class="cars__btn button">mehr</button>
+                        </div>
+                    </div>
+                    <div class="cars__list">
+                        <div class="cars__info"><div class="cars__div">Preis: </div><div class="cars__data">49.999 €</div></div>
+                        <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                        <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                        <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+
+                        <div class="cars__info"><div class="cars__div">Preis: </div><div class="cars__data">49.999 €</div></div>
+                        <div class="cars__info"><div class="cars__div">Kilometerstand: </div><div class="cars__data">35.000 km</div></div>
+                        <div class="cars__info"><div class="cars__div">Leistung: </div><div class="cars__data">350 kW (476 PS)</div></div>
+                        <div class="cars__info"><div class="cars__div">Kraftstoffart: </div><div class="cars__data">Benzin</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.3861669696607!2d11.998487426996382!3d51.427004847840834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a66260858ff111%3A0x9628903d67b7f48a!2s%C3%84u%C3%9Fere%20Radeweller%20Str.%209%2C%2006132%20Halle%20(Saale)!5e0!3m2!1sru!2sde!4v1601754936566!5m2!1sru!2sde" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div id="contacts" class="footer__info">
+                    <ul class="footer__list">
+                        <li>Dmitrij Vol</li>
+                        <li>+49 176 72239291</li>
+                        <li>dmitrijvol@gmx.de</li>
+                        <li>Äußere Radeweller Str.9</li>
+                        <li>06132 Halle/Saale</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__descr">
+                Sie können Ihre Daten hinterlassen<br>
+                und wir werden Sie kontaktieren
+            </div>
+            <form class="form form_mt25" action="#">
+                <input name="name" placeholder="Name" type="text">
+                <input name="phone" placeholder="Telefonnummer" type="number">
+                <input name="email" placeholder="E-mail" type="email">
+                <button class="form__btn button">Anruf bestellen</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__descr">
+                Vielen Dank für Ihre Bewerbung!
+            </div>
+        </div>
+    </div>
+
+    <a href="#up" class="pageup">
+        <img src="img/icons/up-arrow.svg" alt="up">
+    </a>
+    
+
+    <script type="text/javascript" src="https:/code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https:/code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
